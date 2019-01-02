@@ -5,7 +5,6 @@
 read -r -p "commit message:" message
 if [ -a $pwd/.git ]
 then
-
   #This is getting the commit message from the user
   #-r ignores any of the escape messaging
   #-p this is a print
@@ -17,7 +16,7 @@ else
   git init
   git add .
   git commit -m "$message"
-  read -r -p "Git URL:" url
+  read -r -p "Git URL: " url
   git remote add origin $url
   git push -u origin master
 fi
