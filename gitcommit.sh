@@ -3,7 +3,7 @@
 #Look to see if this file exists in our file
 # - a will return true if that file exists
 read -r -p "commit message:" message
-if [ -a $pwd/.git ]
+if [ -a $PWD/.git ]
 then
   #This is getting the commit message from the user
   #-r ignores any of the escape messaging
