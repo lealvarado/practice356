@@ -1,0 +1,13 @@
+Cat allows us to read and write to files. 
+
+If we want to see what a files contains we do the following command: 
+cat filename
+
+If we want to create a file we do the following: 
+
+cat >filename
+Then you get put into the console to type out what your file will contain. In order to escape you hit Ctrl + d 
+
+We can use cat to copy over files: 
+cat filetobecopied > newfile
+
